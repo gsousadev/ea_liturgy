@@ -1,9 +1,9 @@
 package main
 
 import (
-	"ea_liturgy/domain/mass"
-	"ea_liturgy/infra/database"
-	"ea_liturgy/infra/router"
+	"github.com/gsousadev/ea_liturgy/domain/mass"
+	"github.com/gsousadev/ea_liturgy/infra/database"
+	"github.com/gsousadev/ea_liturgy/infra/router"
 )
 
 func main() {
