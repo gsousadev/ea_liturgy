@@ -23,3 +23,13 @@ func storeMassService(data *MassRequest) (Mass, error) {
 
 	return m, nil
 }
+
+func deleteMassService(id int) error {
+	result := deleteMassRepository(id)
+
+	if result.Error != nil {
+		return result.Error
+	}
+
+	return nil
+}

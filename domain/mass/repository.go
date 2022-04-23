@@ -9,3 +9,7 @@ import (
 func storeMassRepository(m *Mass) *gorm.DB {
 	return database.Db.Create(m)
 }
+
+func deleteMassRepository(id int) *gorm.DB {
+	return database.Db.Delete(&Mass{}, id)
+}
