@@ -2,7 +2,6 @@ package mass
 
 import (
 	"github.com/gsousadev/ea_liturgy/infra/database"
-
 	"gorm.io/gorm"
 )
 
